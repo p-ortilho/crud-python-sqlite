@@ -1,6 +1,6 @@
 import sqlite3
 
-# Criando conexão com o banco
+# Criando conexão com o banco/criando arquivo db
 conexao = sqlite3.connect('bancodedados.db')
 
 # Mostrando o tipo da variavel conexão

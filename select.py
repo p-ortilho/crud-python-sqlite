@@ -7,7 +7,7 @@ conexao = sqlite3.connect('bancodedados.db')
 cursor = conexao.cursor()
 
 # Comando
-comando = "SELECT * FROM videos"
+comando = "SELECT * FROM pessoa"
 
 # Executando o comando SQL
 cursor.execute(comando)

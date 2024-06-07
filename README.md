@@ -1,0 +1,3 @@
+# crud-with-python
+
+ Este repositório foi criado com o objetivo específico de aprimorar as habilidades em operações CRUD (Criar, Ler, Atualizar e Deletar). Utilizamos a linguagem de programação Python, conhecida por sua legibilidade e eficiência, em conjunto com o SQLite. Ao trabalhar com essas tecnologias, estamos desenvolvendo competências essenciais relacionadas à manipulação e gestão de bancos de dados. Isso inclui a criação de tabelas e registros (Criar), a recuperação de dados (Ler),atualização de registros existentes (Atualizar) e a remoção de registros ou tabelas (Deletar).

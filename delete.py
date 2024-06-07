@@ -7,7 +7,7 @@ conexao = sqlite3.connect('bancodedados.db')
 cursor = conexao.cursor()
 
 # Comando
-comando = "DELETE FROM videos WHERE id=2"
+comando = "DELETE FROM pessoa WHERE id=2"
 
 # Executando o comando
 cursor.execute(comando)

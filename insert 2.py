@@ -7,12 +7,12 @@ conexao = sqlite3.connect('bancodedados.db')
 cursor = conexao.cursor()
 
 # Comando
-comando = "INSERT INTO videos VALUES(?, ?, ?)"
+comando = "INSERT INTO pessoa VALUES(?, ?, ?)"
 
 # Dados
 registros = [
-    (2, 'Shell Reverse', 'Crianção de shell reverse'),
-    (3, 'Modelagem de Software', 'Como fazer modelagem de Software')
+    (2, 'Maria', 18),
+    (3, 'Amanda', 22)
 ]
 
 # Inserindos os dados do registros no banco

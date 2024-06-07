@@ -7,7 +7,7 @@ conexao = sqlite3.connect('bancodedados.db')
 cursor = conexao.cursor()
 
 # Comando
-comando = "INSERT INTO videos VALUES(1, 'Banco de Dados', 'Simples iteração com banco de dados sqlite3')"
+comando = "INSERT INTO pessoa VALUES(1, 'Pedro', 23)"
 
 # Executando o comando
 cursor.execute(comando)

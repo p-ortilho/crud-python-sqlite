@@ -7,7 +7,7 @@ conexao = sqlite3.connect('bancodedados.db')
 cursor = conexao.cursor()
 
 # Comando
-comando = "UPDATE videos SET titulo='Banco de dados SQLITE' WHERE id=1"
+comando = "UPDATE pessoa SET nome='Gabriel' WHERE id=1"
 
 # Executando o comando
 cursor.execute(comando)
